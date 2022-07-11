@@ -29,8 +29,16 @@ Software Requirements
 - Visual Studio Code
 - Xcode Simulator
 
+Flow Diagram for the App
+
 ![image](https://user-images.githubusercontent.com/74648261/178304191-bd069527-6520-4e0c-8fdf-32108bf4c1b1.png)
 
+Ultra sonic sensors Connenction Wires
+
+- GND - GND
+- Echo - D6
+- Trig - D5
+- VCC - G
 
 
 For help getting started with Flutter, view our
