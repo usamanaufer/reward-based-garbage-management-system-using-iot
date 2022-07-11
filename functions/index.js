@@ -29,6 +29,7 @@ exports.update = functions.https.onCall((data, context) => {
    })
 });
 
+
 // exports.update = functions.https.onCall((data, context) => {
 //    const final = admin.firestore().collection('games').where('isComplete', '==', 'true').where('user', '==', context.auth.uid).get().then(snapshot => {
 //       snapshot.forEach(doc => {
@@ -38,6 +39,7 @@ exports.update = functions.https.onCall((data, context) => {
 //       })
 //    })
 // });
+
 
 exports.points = functions.https.onRequest((res, req) => {
    return admin.firestore().collection('games').where('isComplete', '==', 'true').get().then((querySnapshot) => {
@@ -55,6 +57,7 @@ exports.points = functions.https.onRequest((res, req) => {
       })   
    }) 
 });
+
 
 exports.voucher = functions.https.onCall((data, context) => {
    return admin.firestore().collection('users').where('uid', '==', context.auth.uid).get().then((querySnapshot) => {
