@@ -6,11 +6,9 @@ Many people are unaware of or underestimate the environmental consequences of li
 
 Given Sri Lanka's waste management challenges. The projects aim is to build a system which provides points for users for disposing the garbage on trash bins properly and this can be achieved by using Ultra sonic sensors. The user can scan the garbage bin unique code using a QR code scanner with the mobile app and gain points for the disposal and the gained points can be claimed later for discounts in selected outlets.
 
-[<img align="left" alt="Visual Studio Code" width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />][webdevplaylist]
+The main objectives of this project are,
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [To detect the garbage disposal and provide points to the right unique person respectively.]
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
 For help getting started with Flutter, view our
