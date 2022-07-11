@@ -8,8 +8,30 @@ Given Sri Lanka's waste management challenges. The projects aim is to build a sy
 
 The main objectives of this project are,
 
-- [To detect the garbage disposal and provide points to the right unique person respectively.]
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- To detect the garbage disposal and provide points to the right unique person respectively.
+- To provide better waste management system using less costs.
+- Integrate these systems with mobile applications
+- Develop a cross platform mobile application.
+
+The app will provide features to view the total balanced points, used points and the points transaction and more other features similar to this with connection of cloud and IoT devices for the data required.
+
+Hardware Requirement using in IoT
+
+- NodeMCU
+- Ultra Sonic Sensors
+- Female to Female Jumper wires
+- Arduino IDE
+
+Software Requirements
+
+- Flutter
+- Firebase Cloud functions
+- Visual Studio Code
+- Xcode Simulator
+
+![image](https://user-images.githubusercontent.com/74648261/178304191-bd069527-6520-4e0c-8fdf-32108bf4c1b1.png)
+
+
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
